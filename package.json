@@ -1,0 +1,24 @@
+{
+  "name": "cypress-web-frontend",
+  "version": "1.0.0",
+  "description": "automation for web frond-end using cypress on website demo katalon studio",
+  "main": "cypress.config.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/iskandarmee/cypress-web-frontend.git"
+  },
+  "author": "Iskandar",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/iskandarmee/cypress-web-frontend/issues"
+  },
+  "homepage": "https://github.com/iskandarmee/cypress-web-frontend#readme",
+  "devDependencies": {
+    "cypress": "^14.0.1",
+    "cypress-mochawesome-reporter": "^3.8.2",
+    "mochawesome": "^7.1.3"
+  }
+}

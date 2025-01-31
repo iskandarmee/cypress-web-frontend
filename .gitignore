@@ -1,0 +1,22 @@
+# Direktori hasil test yang tidak perlu di-push
+cypress/videos/
+cypress/screenshots/
+cypress/reports/
+
+# File konfigurasi lokal
+cypress.env.json
+
+# Dependensi & cache
+node_modules/
+package-lock.json
+yarn.lock
+
+# Hasil build & log
+dist/
+*.log
+npm-debug.log*
+yarn-error.log*
+
+# Editor & OS Files
+.DS_Store
+Thumbs.db
