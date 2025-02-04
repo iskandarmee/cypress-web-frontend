@@ -2,9 +2,11 @@
 cypress/videos/
 cypress/screenshots/
 cypress/reports/
+mochawesome-report/
 
 # File konfigurasi lokal
 cypress.env.json
+mochawesome.json
 
 # Dependensi & cache
 node_modules/

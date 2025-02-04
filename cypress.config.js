@@ -6,18 +6,7 @@ module.exports = defineConfig({
     specPattern: 'cypress/integration/**/*.cy.js',
     supportFile: 'cypress/support/integration.js',
 
-    setupNodeEvents(on, config) {
-      // implement node event listeners here
-
-      require('cypress-mochawesome-reporter/plugin')(on);
-
-      on('after:run', (results) => {
-        console.log("Event after:run berhasil dipanggil!", results);
-      });
-
-      return config;
-
-    },
+    trashAssetsBeforeRuns: false,
 
     reporter: 'mochawesome',
     reporterOptions: {
@@ -26,7 +15,8 @@ module.exports = defineConfig({
       overwrite: false,
       html: true,
       json: true,
-    }
+    },
 
   },
+
 });
