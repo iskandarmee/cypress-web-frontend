@@ -1,9 +1,16 @@
 /// <reference types="cypress" />
 
+import LoginPage from "../components/LoginPage";
+
+
 describe('login in katalon demo', () => {
 
+const loginPage = new LoginPage()
+
   beforeEach(() => {
-    cy.visitUrl('https://katalon-demo-cura.herokuapp.com')
+
+    loginPage.visitUrl('https://katalon-demo-cura.herokuapp.com')
+
   });
 
   it('validasi visit url succcess', () => {
