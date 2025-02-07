@@ -45,6 +45,7 @@ your-repo/
 │   ├── fixtures/            # Sample data files for tests
 │   ├── integration/         # Your test files go here
 │   ├── plugins/             # Custom plugins
+│   ├── components/          # Custom class
 │   ├── support/             # Custom commands and global settings
 ├── node_modules/            # Node dependencies
 ├── cypress.config.js        # Cypress configuration file
